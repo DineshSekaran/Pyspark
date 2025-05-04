@@ -1,0 +1,67 @@
+SPARK: 
+   
+   Apache spark is open source framework..  
+
+
+2000--> yahoo--- distrunite----> Google file system ---> Hadoop- (HDFS+MAP reduce)
+
+1000 --> Disk i/o pefrom--- SPARK-- In memory processing----
+
+Lazy evaluated 
+
+
+     -Tranformation
+     -Action   
+
+
+    df=spark.read.load('sample.csv') //transformation
+    df1=df.filter("age>18") //transformation
+
+
+                                              DAG->
+    //df1.show()  //show,take,collect,write--ation
+
+
+
+Python: 
+
+ yield operatoe
+
+Spark is 1000 time faster than map reduce
+
+
+spark in 2009 UC Berkeley lap AMPI, 2010- it declared the open source as 2010
+
+
+Spark -- Scala , Pyspark, javaspark and R programming ......NET
+
+Banking project- scala---
+
+Spark components: 
+
+     - RDD- Resiliant distributed dataset- Ascylic graph support, Structure/unstructured/semistructure
+
+     -Dataframe --support only structured,semi structured  , -->Table structured  
+ 
+     - Dataset  ---Un/semi/structure  --Python-->java/scala  
+
+     -Spark SQL   --> SQL programmings  spark.sql("Select col,count(*) from table group by col")
+
+     - Spark ML   ---> Feature engineering
+
+     - Graph    --> Gra
+
+SPARK--
+  Data skewness
+  Memory management -- Driver/executer--> 
+  
+
+
+Spark
+
+   JOB---STAGES--->TASK
+
+
+
+
+    
